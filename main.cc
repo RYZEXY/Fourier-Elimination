@@ -11,7 +11,7 @@
 #include "main.h"
 using namespace std;
 
-void trivial(vector<vector<double>> coefficients, vector<double> upper_bound, vector<double>&x) { //not left to the reader as an exercise - the reader can sit back and relax!
+void trivial(vector<vector<double>> coefficients, vector<double> upper_bound, vector<double>&x) { 
 
    //find the smallest upperbound adn the largest lower bound. if lower>upper then infeasible. otherwise, pick x in between upper and lower. 
 
